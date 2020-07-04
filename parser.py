@@ -57,7 +57,7 @@ def main(contestNumber, problem_num_specified):
     for p in problem_names:
         print(p, end = ' ')
     print('')
-    if not os.path.exists(folderName):        
+    if not os.path.exists(folderName):
         os.mkdir(folderName)
 
     for problem_num in problem_names:
